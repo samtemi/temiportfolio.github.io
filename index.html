@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f9dfe26a8c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div id="header">
+     <div class="container">
+        <nav>
+            <img src="DEV!.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+               <p>Front-End Developer</p>
+               <h1>Hi, I'm <span>Sam</span> <br>Temi From Nigeria</h1>
+        </div>
+     </div>
+ </div>
+<!-------about------->
+   
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                       <p>I'm Samuel, a web developer who got inspired by the way tech is evolving the world.
+                also dedicated to crafting exceptional digital experiences. My joureny in web development has
+                         equipped me with a diverse skill set. On the front-end, i bring designs to life using HTML, CSS, 
+                        and JavaScript.Let create something amazing together!</p>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<!----------service-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Development</h2>
+                <p>Transforming design concepts into interactive and visually appealing user interfaces.
+                    i specialize in crafting seamless user experiences using the latest front-end technologies. 
+                    I bring designs to life with HTML, CSS, and JavaScript.
+                </p>
+            <a href="">Learn More</a>
+            </div>
+            <div>
+                <i class="fas fa-crop"></i>
+                <h2>Web Performance Optimization</h2>
+                <p>Ensuring your website loads quickly and efficiently across devices. I employ optimization
+                    techniques to enhance performance, improve user satisfaction, and boost search engine rankings.
+                    Let's make your website fast, responsive, and user-fridenly.
+                </p>
+            <a href="">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+         <p><i class="fas fa-paper-plane"></i>s81049532@gmail.com</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="https://wa.me/+2348104953280" class="whatsapp_float" target="_blank"><i class="fa 
+    fa-whatsapp whatsapp-icon"></i></a> 
+
+
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-150px"
+}
+
+</script>
+
+
+</body>
+</html>
+
+
+
